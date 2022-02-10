@@ -17,20 +17,24 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <FormattedString.Spans>
-                            <Span Text="Notes"
+                            <Span Text="Password Manager"
+                                  TextColor="Black"
                                   FontAttributes="Bold"
                                   FontSize="22" />
-                            <Span Text=" v1.0" />
+                            <Span Text=" di Matteo Decisi" />
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Label Text="Questo progetto è stato scritto e modificato dall'allievo Matteo Decisi."/>
+            <Label Text="Questo progetto è stato scritto e modificato dall'allievo Matteo Decisi."
+                   TextColor="Orange"/>
 
-            <Label Text="Membro di GitHub since July 2021"/>
+            <Label Text="Membro di GitHub since July 2021"
+                   TextColor="Orange"/>
 
             <Label Text="Using Visual Studio 2019: C# and XML stuff.
-                         Using Visual Studio Code: HTML, CSS, JS, JQUERY stuff." />
+                         Using Visual Studio Code: HTML, CSS, JS, JQUERY stuff." 
+                   TextColor="Orange"/>
             <Button Text="Visita Progilo GitHub"
                     Clicked="OnButtonClicked" 
                     BackgroundColor="Orange"/>
