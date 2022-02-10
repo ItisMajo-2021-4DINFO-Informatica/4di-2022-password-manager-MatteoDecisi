@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.Views.AboutPage"
-             Title="About">
+             Title="INFORMAZIONI">
     <!-- Layout children in two rows -->
     <Grid RowDefinitions="Auto,*">
         <Image Source="xamarin_logo.png"
-               BackgroundColor="{OnPlatform iOS=LightSlateGray, Android=#2196F3}"
+               BackgroundColor="{OnPlatform iOS=LightSlateGray, Android=#FFA500}"
                VerticalOptions="Center"
                HeightRequest="64" />
         <!-- Layout children vertically -->
@@ -25,9 +25,15 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Label Text="This app is written in XAML and C# with the Xamarin Platform." />
-            <Button Text="Learn more"
-                    Clicked="OnButtonClicked" />
+            <Label Text="Questo progetto è stato scritto e modificato dall'allievo Matteo Decisi."/>
+
+            <Label Text="Membro di GitHub since July 2021"/>
+
+            <Label Text="Using Visual Studio 2019: C# and XML stuff.
+                         Using Visual Studio Code: HTML, CSS, JS, JQUERY stuff." />
+            <Button Text="Visita Progilo GitHub"
+                    Clicked="OnButtonClicked" 
+                    BackgroundColor="Orange"/>
         </StackLayout>
     </Grid>
 </ContentPage>
